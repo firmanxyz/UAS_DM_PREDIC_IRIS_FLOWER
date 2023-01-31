@@ -32,5 +32,5 @@ def main():
         result = prediction(sepal_length, sepal_width, petal_length, petal_width)
     st.success('Hasil Prediksi - {}'.format(result))
     
-if _name=='main_':
+if __name__=='__main__':
     main()
